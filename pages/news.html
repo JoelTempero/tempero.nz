@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News & Projects | Tempero Creative</title>
+  <meta name="description" content="See the latest projects and news from Tempero Creative. Browse our portfolio of videography, photography, design, and creative work.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container page-header-content">
+      <h1>News & <span class="text-gold text-italic">Projects</span></h1>
+      <p>The latest from our studio. Browse our recent work and stay updated on what we're creating.</p>
+    </div>
+  </section>
+
+  <!-- Filters & Grid -->
+  <section class="section section-dark">
+    <div class="container">
+      <!-- Filters -->
+      <div class="news-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="videography">Videography</button>
+        <button class="filter-btn" data-filter="photography">Photography</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="education">Education</button>
+      </div>
+      
+      <!-- News Grid -->
+      <div class="news-grid">
+        <article class="news-card" data-category="videography">
+          <div class="news-card-image">
+            <img src="../images/news/48hours-2024.jpg" alt="48Hours 2024">
+            <span class="news-card-category">Videography</span>
+          </div>
+          <div class="news-card-content">
+            <span class="news-card-date">August 15, 2024</span>
+            <h3>48Hours 2024 - Behind the Scenes</h3>
+            <p>Our team took on the challenge again this year. Here's a look at the creative chaos of making a film in just 48 hours.</p>
+          </div>
+        </article>
+        
+        <article class="news-card" data-category="design">
+          <div class="news-card-image">
+            <img src="../images/news/shrek-musical.jpg" alt="Shrek the Musical">
+            <span class="news-card-category">Design</span>
+          </div>
+          <div class="news-card-content">
+            <span class="news-card-date">June 20, 2024</span>
+            <h3>Middleton Grange School - Shrek the Musical</h3>
+            <p>We were thrilled to design the promotional materials for this amazing school production.</p>
+          </div>
+        </article>
+        
+        <article class="news-card" data-category="photography">
+          <div class="news-card-image">
+            <img src="../images/news/summer-weddings.jpg" alt="Summer Weddings">
+            <span class="news-card-category">Photography</span>
+          </div>
+          <div class="news-card-content">
+            <span class="news-card-date">March 10, 2024</span>
+            <h3>Summer Wedding Collection</h3>
+            <p>A look back at some of our favourite wedding moments from the 2023-24 summer season.</p>
+          </div>
+        </article>
+        
+        <article class="news-card" data-category="education">
+          <div class="news-card-image">
+            <img src="../images/news/animation-workshop.jpg" alt="Animation Workshop">
+            <span class="news-card-category">Education</span>
+          </div>
+          <div class="news-card-content">
+            <span class="news-card-date">February 1, 2024</span>
+            <h3>New Animation Workshop Series</h3>
+            <p>Announcing our new term of animation workshops for young creatives. Spots are filling fast!</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
