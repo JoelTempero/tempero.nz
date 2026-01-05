@@ -9,9 +9,9 @@
 // Determine base path (for GitHub Pages subdirectory support)
 const getBasePath = () => {
   const path = window.location.pathname;
-  // If in a subdirectory like /tempero-creative/, detect it
-  if (path.includes('/tempero-creative/')) {
-    return '/tempero-creative';
+  // If hosted on GitHub Pages at username.github.io/tempero.nz/
+  if (path.includes('/tempero.nz/')) {
+    return '/tempero.nz';
   }
   return '';
 };
